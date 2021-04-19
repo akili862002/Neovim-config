@@ -45,3 +45,6 @@ nnoremap <Leader>O O<Esc>^Da
 
 nnoremap <space>/ :Commentary<CR>
 vnoremap <space>/ :Commentary<CR>
+
+nnoremap <leader>q :bp<cr>:bd#<cr>
+nnoremap <space>s :<C-u>call gitblame#echo()<CR>

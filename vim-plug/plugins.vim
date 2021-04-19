@@ -19,8 +19,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Keeping up to date with master
     Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}    
+
+    " Themes
     Plug 'joshdick/onedark.vim'
-    
+    " Plugin 'dracula/dracula-theme'
+
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
@@ -28,10 +31,20 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'yggdroot/indentline'
     Plug 'voldikss/vim-floaterm'
     Plug 'mhinz/vim-startify'
+
+    " Fzf
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter'
+
     Plug 'alvan/vim-closetag'
     Plug 'honza/vim-snippets'
+    Plug 'cakebaker/scss-syntax.vim'
+    Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+    Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+    Plug 'editorconfig/editorconfig-vim'
 
-call plug#end()
+    " Git
+    Plug 'tpope/vim-fugitive'
+
+    call plug#end()

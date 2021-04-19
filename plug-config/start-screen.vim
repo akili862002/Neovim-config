@@ -26,5 +26,7 @@ let g:startify_bookmarks = [
   \ { 'uea': '~/codes/USUM/EVER-website/ADMIN-EVER' },
   \ { 'uem': '~/codes/USUM/EVER-website/MANAGER-EVER' },
   \ { 'ueu': '~/codes/USUM/EVER-website/USER-EVER' },
-  \ { 'nv' : '~/.config/nvim' }
+  \ { 'ihu': '~/codes/USUM/INHINH/USER' },
+  \ { 'iha': '~/codes/USUM/INHINH/ADMIN' },
+  \ { 'nv' : '~/.config/nvim' },
   \ ]

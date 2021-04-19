@@ -1,7 +1,6 @@
 " set leader key
 let mapleader = " "
 let g:mapleader = " "
-setlocal spell spelllang=en_us
 
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType jsx set omnifunc=htmlcomplete#CompleteTags
